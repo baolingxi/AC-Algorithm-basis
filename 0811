@@ -1,0 +1,20 @@
+Arduino:1.8.5 (Windows 10), 开发板："ESPino (ESP-12 Module), 80 MHz, Flash, ck, 4M (1M SPIFFS), v2 Lower Memory, Disabled, None, Only Sketch, 115200"
+
+警告：库 OpenWeatherOneCall 中的分类 'other' 不可用。设置为 'Uncategorized'
+构建选项已变更，全部重新构建
+In file included from D:\workspace\IDE\Arduino_workspace\21.9.5\Weather_Oled\Esp8266_Weather_Oled\Esp8266_Weather_Oled.ino:1:0:
+
+C:\Users\baolingxi\Documents\Arduino\libraries\OpenWeatherOneCall\src/OpenWeatherOneCall.h:17:71: fatal error: HTTPClient.h: No such file or directory
+
+ #include <HTTPClient.h>         // Required but installed in the ESP32
+
+                                                                       ^
+
+compilation terminated.
+
+exit status 1
+为开发板 ESPino (ESP-12 Module) 编译时出错。
+
+在文件 -> 首选项开启
+“编译过程中显示详细输出”选项
+这份报告会包含更多信息。
